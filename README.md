@@ -1,4 +1,4 @@
-# Serverless for lambda with ApiGateway and dynamoDB
+# Cloud-formation nested stacks to s3 sync from GitHub and cloud-front invalidation.
 ## Description
 This repository contains cloud-formation nested stacks to create code pipeline to perform s3 sync from GitHub repository and cloud-front invalidation. Codepipeline contains two stages one for UAT and other for Production. Both stages contains code-build to perform actions. Production stage has its manual trigger and optional as well which you can define in parameters.
 ## Table of contents
