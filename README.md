@@ -3,7 +3,7 @@
 This repository contains cloud-formation nested stacks to create code pipeline to perform s3 sync from GitHub repository and cloud-front invalidation. Codepipeline contains two stages one for UAT and other for Production. Both stages contains code-build to perform actions. Production stage has its manual trigger and optional as well which you can define in parameters.
 ## Table of contents
 -   [Structure](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#structure)
--   [Prerequisites](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Prerequisites)
+-   [Prerequisites](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#prerequisites)
 -   [Parameters](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Parameters)
 - [Deploy Stack](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Deploy-Stack)
 -   [Output](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Output)
@@ -20,7 +20,7 @@ Structure contains cloud-formation nested stacks to create code pipeline to perf
 - Pipeline.yaml
 - Roles.yaml
       
-## [](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Prerequisites) Prerequisites
+## [](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#prerequisites) Prerequisites
 - Create a cicd folder in s3.
 - upload all stack on your desired s3 bucket in cicd folder. 
 - Create Oauth token in GitHub.
