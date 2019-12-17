@@ -55,5 +55,5 @@ Structure contains cloud-formation nested stacks to create code pipeline to perf
 
 ## [](https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb#Output)Output
 
-![Image description](https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb/blob/master/output.png)
+![Image description](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack/blob/master/output.png)
 
