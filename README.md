@@ -2,7 +2,7 @@
 ## Description
 This repository contains cloud-formation nested stacks to create code pipeline to perform s3 sync from GitHub repository and cloud-front invalidation. Codepipeline contains two stages one for UAT and other for Production. Both stages contains code-build to perform actions. Production stage has its manual trigger and optional as well which you can define in parameters.
 ## Table of contents
--   [Structure](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)
+-   [Structure](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#structure)
 -   [Prerequisites](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Installation-Prerequisites)
 -   [Parameters](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Parameters)
 - [Deploy Stack](https://github.com/sikandarqaisar/codepipeline-s3sync-cloudfront-Invalidation-nestedStack#Deploy-Stack)
